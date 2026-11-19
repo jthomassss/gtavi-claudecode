@@ -1,4 +1,4 @@
-﻿"""Find the streamer's webcam box in a video.
+"""Find the streamer's webcam box in a video.
 
 usage: python facecam.py <video> [--start S --end E] [--json out.json] [--debug out.jpg]
 importable: find_cam(video, start=None, end=None) -> dict

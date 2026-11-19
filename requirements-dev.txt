@@ -1,0 +1,3 @@
+# Light dependencies for the test suite and CI. The full tool needs requirements.txt.
+numpy>=1.26
+pytest>=8

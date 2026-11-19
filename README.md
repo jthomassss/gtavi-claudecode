@@ -90,4 +90,13 @@ python scripts/live.py "https://www.youtube.com/watch?v=<live>" --minutes 60
 
 Windows, macOS or Linux, Python 3.10+. An NVIDIA GPU makes transcription faster; on the CPU a 12-minute video takes about 5 minutes.
 
+## Tests
+
+```
+pip install -r requirements-dev.txt
+python -m pytest -q
+```
+
+GitHub Actions runs the same tests on every push and pull request.
+
 MIT license.
